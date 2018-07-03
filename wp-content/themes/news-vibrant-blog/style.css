@@ -1,0 +1,294 @@
+/*
+Theme Name:     News Vibrant Blog
+Theme URI:      https://codevibrant.com/wpthemes/news-vibrant-blog
+Author:         CodeVibrant
+Author URI:     https://codevibrant.com
+Description:    News Vibrant Blog is a child theme of News Vibrant modern magazine WordPress theme, with creative design and powerful features that lets you write articles and blog posts with ease. It uses the best clean SEO practices, responsive HTML5, and on top of that, it`s fast, simple, and easy to use.  Use the Customizer to add your own background, page layout, site width and more.
+Version:        1.0.1
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       news-vibrant
+Text Domain:    news-vibrant-blog
+Tags:           news, blog, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-logo, footer-widgets, full-width-template, translation-ready
+*/
+
+.boxed_layout .cv-container {
+	padding: 0 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Amiri', serif;
+}
+
+#masthead .site-branding {
+	float: none;
+	text-align: center;
+	margin: 0;
+}
+
+.nv-header-menu-wrapper {
+	text-align: center;
+}
+
+@media (min-width: 769px) {
+#site-navigation,
+.nv-header-search-wrapper,
+.nv-home-icon {
+	display: inline-block !important;
+	float: none;
+	vertical-align: top;
+}
+}
+ 
+.search-main {
+	margin-left: 15px;
+    line-height: 44px;
+}
+
+#site-navigation ul li:hover > a, 
+#site-navigation ul li.current-menu-item > a, 
+#site-navigation ul li.current_page_item > a, 
+#site-navigation ul li.current-menu-ancestor > a{
+    color: #08408E;
+    background: none;
+}
+
+#site-navigation ul li a::before{
+    display: none;
+}
+
+#site-navigation ul li a {
+	padding: 0 15px;
+	margin-right: 0;
+}
+
+.nv-home-icon a{
+    color: #333 !important;
+}
+
+.home .nv-home-icon a, .nv-home-icon a:hover {
+	background: none !important;
+	color: #08408E !important;
+}
+
+.home .comments-link {
+	display: none;
+}
+
+.nv-home-top-section {
+	padding: 50px 0;
+}
+
+.news_vibrant_blog_slider {
+	margin: 0;
+}
+
+.nv-slide-thumb img {
+	width: 100%;
+}
+
+.nv-slide-content-wrap {
+	background: rgba(255,255,255,0.8);
+	width: 60%;
+	left: 50%;
+	top: 50%;
+	bottom: auto;
+	margin-left: -30%;
+	transform: translateY(-50%);
+	padding: 50px;
+}
+
+.nv-slide-content-wrap .post-title a {
+	color: #333;
+	font-size: 42px;
+	text-transform: uppercase;
+	line-height: 52px;
+	text-align: center;
+	display: block;
+}
+
+.nv-slide-content-wrap .post-content {
+	font-size: 16px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.nv-slide-content-wrap .post-btn {
+	text-align: center;
+	display: block;
+	color: #333;
+	font-size: 18px;
+}
+
+.nv-slide-content-wrap .post-btn i{
+    margin-left: 5px;
+}
+
+.news_vibrant_blog_slider .lSAction > a {
+	background: rgba(255,255,255,0.6);
+	height: 50px;
+	opacity: 1;
+	right: -60px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	width: 50px;
+	font-size: 26px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.news_vibrant_blog_slider:hover .lSAction > a{
+    right: 30px;
+}
+
+.news_vibrant_blog_slider .lSAction > a:hover{
+    background: #fff;
+}
+
+.news_vibrant_blog_slider .lSAction > a.lSPrev {
+	right: auto;
+	left: -60px;
+}
+
+.news_vibrant_blog_slider:hover .lSAction > a.lSPrev {
+	right: auto;
+	left: 30px;
+}
+
+.nv-home-middle-section .middle-left-aside {
+	display: none;
+}
+
+.middle-right-aside .widget_text {
+	text-align: center;
+}
+
+.nv-home-middle-section .middle-primary {
+	width: 70%;
+	margin-left: 0;
+}
+
+.nv-home-middle-section .middle-right-aside {
+	width: 27%;
+}
+
+.nv-post-title.large-size a, .nv-post-title.small-size a {
+	font-size: 20px;
+}
+
+.nv-post-title.small-size a {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.nv-block-title, .widget-title, .page-header .page-title, .nv-related-title {
+	border-left: none;
+	padding: 0;
+	padding: 0 0 8px;
+	color: #08408e;
+	border-bottom: 1px solid #e1e1e1;
+    position: relative;
+}
+
+.nv-block-title::after,
+.widget-title:after, 
+.page-header .page-title:after, 
+.nv-related-title:after{
+	content: "";
+	width: 60px;
+	height: 2px;
+	background: #08408e;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+
+#top-footer .nv-block-title::after,
+#top-footer .widget-title:after {
+    display: none;
+}
+
+#top-footer .widget-title {
+	border: none;
+	margin: 0 0 10px;
+    color: #fff !important;
+}
+
+.nv-block-title-nav-wrap .carousel-nav-action .carousel-controls {
+	padding: 0px 13px;
+}
+
+.nv-block-title-nav-wrap .carousel-nav-action {
+	top: -5px;
+}
+
+.news_vibrant_block_posts .layout4 .nv-block-posts-wrapper .nv-alt-grid-post .nv-post-content {
+	padding: 25px 15px;
+}
+
+.bottom-footer {
+	background: rgba(255, 255, 255, 0.05) none repeat scroll 0 0;
+	color: #bfbfbf;
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+.news_vibrant_block_posts .layout4 .nv-block-posts-wrapper .nv-alt-grid-post .nv-post-content {
+	padding: 45px 15px;
+}
+
+.news_vibrant_block_posts .layout4 .nv-block-posts-wrapper .nv-alt-grid-post .nv-post-content {
+	height: 282px;
+}
+
+@media (max-width: 979px) {
+.nv-slide-content-wrap {
+	padding: 20px 20px;
+}
+.nv-slide-content-wrap .post-title a {
+	font-size: 34px;
+	line-height: 44px;
+}
+}
+
+@media (max-width: 768px) {
+.nv-slide-content-wrap .post-content {
+	display: none;
+}
+.nv-slide-content-wrap .post-title a {
+	font-size: 24px;
+}
+.nv-slide-content-wrap .post-btn {
+	font-size: 13px;
+}
+.boxed_layout .cv-container {
+	padding: 0 20px;
+}
+.nv-home-middle-section .middle-primary,
+.nv-home-middle-section .middle-right-aside {
+	width: 100%;
+	float: none;
+}
+.news_vibrant_block_posts .layout4 .nv-block-posts-wrapper .nv-alt-grid-post .nv-post-content {
+	height: 216px;
+}
+.news_vibrant_block_posts .layout4 .nv-block-posts-wrapper .nv-alt-grid-post .nv-post-content {
+	padding: 15px 15px;
+}
+}
+
+@media (max-width: 480px) {
+.nv-slide-content-wrap .post-title a {
+	font-size: 12px;
+	line-height: 17px;
+}
+.nv-slide-content-wrap .post-btn {
+	display: none;
+}
+.news_vibrant_blog_slider .lSAction {
+	display: none;
+}
+}
